@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="icon" type="image/x-icon" href="images/mainlogo.svg" />
+  <link rel="stylesheet" href="files/splide.min.css" />
+  <link rel="stylesheet" href="files/slick-theme.css" />
+  <link rel="stylesheet" href="files/slick.css" />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+  <title>Еко-Захист</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+  <body>
+    <div class="leaf leaf_1">
+      <img src="images/leaf.png" alt="leaf" class="" />
+    </div>
+    <div class="leaf leaf_2">
+      <img src="images/leaf2.png" alt="leaf" class="" />
+    </div>
+
+    <div id="container">
+      <header id="header" class="header">
+  <nav class="header_inner">
+    <div class="hamb">
+      <button type="button" class="hamb__field" id="hamb">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+    <div class="logo_wrap">
+      <a href="#" class="logo_link header_logo"
+        ><img src="images/logo.png" class="mainlogo" alt="mainlogo" />
+      </a>
+    </div>
+    <a href="#" class="header_logo_min"
+      ><img src="images/logomin.png" class="minlogo" alt="minlogo" />
+    </a>
+    <div class="header__nav nav">
+      <ul class="nav__list menu" id="menu">
+        <li class="nav__item">
+          <a class="nav__item_link" href="#advantages" text="3">переваги</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item_link" href="#offers" text="4">наші послуги</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item_link" href="#work" text="5">як ми працюємо</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item_link" href="documents.html" text="6"
+            >наші документи</a
+          >
+        </li>
+        <li class="nav__item">
+          <a class="nav__item_link" href="#info" text="7">відгуки</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__item_link contact" href="#contact" text="8"
+            >контакти</a
+          >
+        </li>
+      </ul>
+    </div>
+    <input id="lang" type="checkbox" onclick="changeLagnuage()" />
+    <label for="lang" class="select uk">UK</label
+    ><label for="lang" class="select eng">EN</label>
+    <a class="header__button button" href="#contact" text="8">Контакти</a>
+  </nav>
+
+  <div class="d_popup" id="d_popup">
+    <div class="leaf leaf_1">
+      <img src="images/leaf.png" alt="leaf" />
+    </div>
+    <div class="leaf leaf_3">
+      <img src="images/leaf3.png" alt="leaf" />
+    </div>
+  </div>
+</header>
+ <main class="main">
+  <section class="section-main">
+    <div class="section-main_image _ibg">
+      <img src="images/home.jpg" alt="cover" />
+    </div>
+
+    <div class="container">
+      <div class="section-main_heading-block">
+        <h1 class="section-main_heading _anim-items" text="hello">
+          утилізація
+        </h1>
+        <h3 class="section-main_subheading _anim-items" text="name">
+          Небезпечних відходів
+        </h3>
+        <div class="section-main_descr _anim-items" text="descr">
+          Ми використовуємо новітні екологічно безпечні технології
+        </div>
+      </div>
+      <ul class="section-main__list _anim-items">
+        <li class="section-main__list_item _anim-show" text="1">
+          Рішення проблем збору
+        </li>
+        <li class="section-main__list_item _anim-show" text="2">
+          Транспортування та подальшої утилізації небезпечних відходів
+        </li>
+      </ul>
+      <a class="button section-main_button _anim-items" href="#popup" text="9"
+        >безкоштовна консультація
+      </a>
+    </div>
+  </section>
+  <section class="section-offer" id="offers">
+    <div class="leaf leaf_3">
+      <img src="images/leaf3.png" alt="" class="mouse-parallax-bg" />
+    </div>
+    <div class="leaf leaf_4">
+      <img src="images/leaf4.png" alt="leaf" class="mouse-parallax-bg" />
+    </div>
+    <div class="section-offer_container">
+      <div class="main__heading">
+        <h2 class="main__heading_title _anim-items" text="10">Наші послуги</h2>
+      </div>
+      <div class="section-offer_table table table-offer-pc">
+        <div class="table__item _anim-items">
+          <div class="icon-box _ibg">
+            <img
+              src="images/icons/icons.svg#mask"
+              class="svg-mask-dims _anim-show"
+              alt="mask"
+            />
+          </div>
+          <div class="table__item_text">Клінічні (медичні) відходи</div>
+        </div>
+        <div class="table__item _anim-items">
+          <div class="icon-box _ibg">
+            <img
+              src="images/icons/icons.svg#medicines"
+              class="svg-medicines-dims"
+              alt="medicines"
+            />
+          </div>
+          <div class="table__item_text">Фармацевтичні відходи</div>
+        </div>
+        <div class="table__item _anim-items">
+          <div class="icon-box _ibg">
+            <img
+              src="images/icons/icons.svg#battery"
+              class="svg-battery-dims"
+              alt="battery"
+            />
+          </div>
+          <div class="table__item_text">Акумуляторні батареї</div>
+        </div>
+        <div class="table__item _anim-items">
+          <div class="icon-box _ibg">
+            <img
+              src="images/icons/icons.svg#can"
+              class="svg-can-dims"
+              alt="can"
+            />
+          </div>
+          <div class="table__item_text">Хімічні речовини</div>
+        </div>
+        <div class="table__item _anim-items">
+          <div class="icon-box _ibg">
+            <img
+              src="images/icons/icons.svg#desert"
+              class="svg-desert-dims"
+              alt="desert"
+            />
+          </div>
+          <div class="table__item_text">Шлам гальванічний</div>
+        </div>
+        <div class="table__item _anim-items">
+          <div class="icon-box _ibg">
+            <img
+              src="images/icons/icons.svg#tires"
+              class="svg-tires-dims"
+              alt="tires"
+            />
+          </div>
+          <div class="table__item_text">Зношені шини</div>
+        </div>
+        <div class="table__item _anim-items">
+          <div class="icon-box _ibg">
+            <img
+              src="images/icons/icons.svg#factory"
+              class="svg-factory-dims"
+              alt="factory"
+            />
+          </div>
+          <div class="table__item_text">Промислові відходи виробництва</div>
+        </div>
+        <div class="table__item _anim-items">
+          <div class="icon-box _ibg">
+            <img src="images/icons/icons.svg#tv" class="svg-tv-dims" alt="tv" />
+          </div>
+          <div class="table__item_text">Комп’ютерна та побутова техніка</div>
+        </div>
+        <div class="table__item _anim-items">
+          <div class="icon-box _ibg">
+            <img
+              src="images/icons/icons.svg#paint-bucket"
+              class="svg-paint-bucket-dims"
+              alt="paint-bucket"
+            />
+          </div>
+          <div class="table__item_text">
+            Відходи клеїв, лаків, фарб, барвників, смол
+          </div>
+        </div>
+        <div class="table__item _anim-items">
+          <div class="icon-box _ibg">
+            <img
+              src="images/icons/icons.svg#oil-barrel"
+              class="svg-barrel-dims"
+              alt="barrel"
+            />
+          </div>
+          <div class="table__item_text">Відходи забруднені нафтопродуктами</div>
+        </div>
+        <div class="table__item _anim-items">
+          <div class="icon-box _ibg">
+            <img
+              src="images/icons/icons.svg#led"
+              class="svg-led-dims"
+              alt="led"
+            />
+          </div>
+          <div class="table__item_text">
+            Люмінесцентні лампи<br />
+            термометри ртутні
+          </div>
+        </div>
+        <div class="table__item item_grid _anim-items">
+          <div class="icon-box icon-box_descr _ibg">
+            <img
+              src="images/icons/icons.svg#wood"
+              class="svg-wood-dims"
+              alt="wood"
+            />
+          </div>
+          <div class="table__item_text">Деревина просочена хім. речовинами</div>
+          <span class="table__item_descr">шпали та інші</span>
+        </div>
+        <div class="table__item item_grid _anim-items">
+          <div class="icon-box icon-box_descr _ibg">
+            <img
+              src="images/icons/icons.svg#fuel"
+              class="svg-fuel-dims"
+              alt="fuel"
+            />
+          </div>
+          <div class="table__item_text">
+            Відпрацьовані нафтопродукти та їх суміші
+          </div>
+          <span class="table__item_descr"
+            >ганчір’я, фільтри, пісок, папір, тара
+          </span>
+        </div>
+        <div class="table__item item_grid _anim-items">
+          <div class="icon-box icon-box_descr _ibg">
+            <img
+              src="images/icons/icons.svg#garbage"
+              class="svg-garbage-dims"
+              alt="garbage"
+            />
+          </div>
+          <div class="table__item_text">Відходи упаковок та контейнерів</div>
+          <span class="table__item_descr">мішки, каністри </span>
+        </div>
+        <div class="table__item item_grid _anim-items">
+          <div class="icon-box _ibg">
+            <img
+              src="images/icons/icons.svg#bandage"
+              class="svg-bandage-dims"
+              alt="bandage"
+            />
+          </div>
+          <div class="table__item_text">Забруднені полімери</div>
+          <span class="table__item_descr">плівка, пластир</span>
+        </div>
+      </div>
+
+      <div class="table-offer-mob">
+        <div class="table-offer-mob_slide">
+          <div class="table__item _anim-items">
+            <div class="icon-box">
+              <img
+                src="images/icons/icons.svg#mask"
+                class="svg-mask-dims _anim-show"
+                alt="mask"
+              />
+            </div>
+            <div class="table__item_text">Клінічні (медичні) відходи</div>
+          </div>
+          <div class="table__item _anim-items">
+            <div class="icon-box">
+              <img
+                src="images/icons/icons.svg#medicines"
+                class="svg-medicines-dims"
+                alt="medicines"
+              />
+            </div>
+            <div class="table__item_text">Фармацевтичні відходи</div>
+          </div>
+          <div class="table__item _anim-items">
+            <div class="icon-box">
+              <img
+                src="images/icons/icons.svg#battery"
+                class="svg-battery-dims"
+                alt="battery"
+              />
+            </div>
+            <div class="table__item_text">Акумуляторні батареї</div>
+          </div>
+        </div>
+        <div class="table-offer-mob_slide">
+          <div class="table__item _anim-items">
+            <div class="icon-box">
+              <img
+                src="images/icons/icons.svg#can"
+                class="svg-can-dims"
+                alt="can"
+              />
+            </div>
+            <div class="table__item_text">Хімічні речовини</div>
+          </div>
+          <div class="table__item _anim-items">
+            <div class="icon-box">
+              <img
+                src="images/icons/icons.svg#desert"
+                class="svg-desert-dims"
+                alt="desert"
+              />
+            </div>
+            <div class="table__item_text">Шлам гальванічний</div>
+          </div>
+          <div class="table__item _anim-items">
+            <div class="icon-box">
+              <img
+                src="images/icons/icons.svg#tires"
+                class="svg-tires-dims"
+                alt="tires"
+              />
+            </div>
+            <div class="table__item_text">Зношені шини</div>
+          </div>
+        </div>
+        <div class="table-offer-mob_slide">
+          <div class="table__item _anim-items">
+            <div class="icon-box">
+              <img
+                src="images/icons/icons.svg#factory"
+                class="svg-factory-dims"
+                alt="factory"
+              />
+            </div>
+            <div class="table__item_text">Промислові відходи виробництва</div>
+          </div>
+          <div class="table__item _anim-items">
+            <div class="icon-box">
+              <img src="images/icons/icons.svg#tv" class="svg-tv-dims" alt="tv" />
+            </div>
+            <div class="table__item_text">Комп’ютерна та побутова техніка</div>
+          </div>
+          <div class="table__item _anim-items">
+            <div class="icon-box">
+              <img
+                src="images/icons/icons.svg#paint-bucket"
+                class="svg-paint-bucket-dims"
+                alt="paint-bucket"
+              />
+            </div>
+            <div class="table__item_text">
+              Відходи клеїв, лаків, фарб, барвників, смол
+            </div>
+          </div>
+        </div>
+        <div class="table-offer-mob_slide">
+          <div class="table__item _anim-items">
+            <div class="icon-box">
+              <img
+                src="images/icons/icons.svg#oil-barrel"
+                class="svg-oil-barrel-dims"
+                alt="oil-barrel"
+              />
+            </div>
+            <div class="table__item_text">
+              Відходи забруднені нафтопродуктами
+            </div>
+          </div>
+          <div class="table__item _anim-items">
+            <div class="icon-box">
+              <img
+                src="images/icons/icons.svg#led"
+                class="svg-led-dims"
+                alt="battery"
+              />
+            </div>
+            <div class="table__item_text">
+              Люмінесцентні лампи<br />
+              термометри ртутні
+            </div>
+          </div>
+          <div class="table__item item_grid _anim-items">
+            <div class="icon-box icon-box_descr">
+              <img
+                src="images/icons/icons.svg#wood"
+                class="svg-wood-dims"
+                alt="wood"
+              />
+            </div>
+            <div class="table__item_text">
+              Деревина просочена хім. речовинами
+            </div>
+            <span class="table__item_descr">шпали та інші</span>
+          </div>
+        </div>
+        <div class="table-offer-mob_slide">
+          <div class="table__item item_grid _anim-items">
+            <div class="icon-box icon-box_descr">
+              <img
+                src="images/icons/icons.svg#fuel"
+                class="svg-fuel-dims"
+                alt="fuel"
+              />
+            </div>
+            <div class="table__item_text">
+              Відпрацьовані нафтопродукти та їх суміші
+            </div>
+            <span class="table__item_descr"
+              >ганчір’я, фільтри, пісок, папір, тара
+            </span>
+          </div>
+          <div class="table__item item_grid _anim-items">
+            <div class="icon-box icon-box_descr">
+              <img
+                src="images/icons/icons.svg#garbage"
+                class="svg-garbage-dims"
+                alt="garbage"
+              />
+            </div>
+            <div class="table__item_text">Відходи упаковок та контейнерів</div>
+            <span class="table__item_descr">мішки, каністри </span>
+          </div>
+          <div class="table__item item_grid _anim-items">
+            <div class="icon-box">
+              <img
+                src="images/icons/icons.svg#bandage"
+                class="svg-battery-dims"
+                alt="battery"
+              />
+            </div>
+            <div class="table__item_text">Забруднені полімери</div>
+            <span class="table__item_descr">плівка, пластир</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section_button section_button_mob _anim-items">
+        <a class="section-offer_button button" href="#offer"
+          >замовити послугу</a
+        >
+      </div>
+    </div>
+  </section>
+  <section class="section-advantage" id="advantages">
+    <div class="main__heading main__heading_green">
+      <h2 class="section-advantage_heading main__heading_title _anim-items">
+        Важливі переваги
+      </h2>
+    </div>
+    <div class="section-advantage_descr">
+      <p class="section-advantage_text _anim-items">
+        Нам не байдужий стан довкілля в Україні, а також усі ті ризики, загрози
+        та небезпеки, які несе з собою погіршення стану навколишнього
+        середовища. Наш висококваліфікований колектив вирішує складні завдання
+        по очищенню навколишнього середовища від різних видiв небезпечних
+        відходів, які утворюются в процесi виробництва. Що істотно знижує
+        забруднення навколишнього середовища.
+      </p>
+    </div>
+  </section>
+
+  <section class="section-work parallax layer1" id="work">
+  <div class="section-work_container parallax layer2">
+    <div class="leaf leaf_5 layer">
+      <img class="layer__item" src="images/leaf5.png" alt="" />
+    </div>
+    <div class="leaf leaf_6">
+      <img class="layer__item" src="images/leaf6.png" alt="" />
+    </div>
+    <div class="main__heading">
+      <h2 class="main__heading_title _anim-items">Як ми працюємо</h2>
+    </div>
+    <div class="section-work__i-block">
+      <div class="section-work__i-block_item icon _anim-items">
+        <div class="icon_img">
+          <img
+            src="images/icons/icons.svg#chat"
+            class="svg-chat-dims"
+            alt="chat"
+          />
+        </div>
+        <div class="icon_descr">Обговорюємо Вашу проблему</div>
+      </div>
+      <div class="section-work__i-block_item icon _anim-items">
+        <div class="icon_img">
+          <img
+            src="images/icons/icons.svg#contract"
+            class="svg-contract-dims"
+            alt="contract"
+          />
+        </div>
+        <div class="icon_descr">Комерційна пропозиція та договір</div>
+      </div>
+      <div class="section-work__i-block_item icon _anim-items">
+        <div class="icon_img">
+          <img src="images/icons/icons.svg#car" class="svg-car-dims" alt="car" />
+        </div>
+        <div class="icon_descr">
+          Роботи зі збирання, вивезення та утилізації
+        </div>
+      </div>
+    </div>
+    <div class="section-work__items-block">
+      <div class="section-work__items-block_item _anim-items">
+        <h4 class="item-heading">З нами легко працювати</h4>
+        <p class="item_text">
+          На кожен проект призначається окремий менеджер. Він супроводжує проект
+          на всіх етапах, веде переговори з вами, доступною мовою розповідає про
+          кожен етап і умови співпраці.
+        </p>
+      </div>
+      <div class="section-work__items-block_item _anim-items">
+        <h4 class="item-heading">зрозумілі ціни</h4>
+        <p class="item_text">
+          Вартість роботи залежить від методу утилізації, виду, агрегатного
+          стану і концентрацій небезпечних речовин, що входять до складу
+          відходів, процесу збору та відстані до місця розвантаження.
+        </p>
+      </div>
+    </div>
+    <div class="section_button _anim-items">
+      <a class="section-work_button button" href="#popup">
+        безкоштовна консультація
+      </a>
+    </div>
+  </div>
+</section>
+ <section class="section-slider splide" role="group" id="info">
+  <div class="main__heading">
+    <h2 class="main__heading_title _anim-items">відгуки</h2>
+  </div>
+  <div class="slider-container splide__track">
+    <div class="_anim-items splide__list">
+      <div class="splide__slide">
+        <div class="s__text">
+          <div class="s__text_wrap">
+            <img src="images/logogora.svg" alt="gora" />
+          </div>
+          <div class="s__text_name">
+            <div class="s__text_title">Gora</div>
+            <p class="s__text_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              corporis unde delectus quas dolorem, corrupti fugiat et vitae nam
+              provident
+              <a class="s__text_link" href="">більше...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="splide__slide">
+        <div class="s__text">
+          <div class="s__text_wrap">
+            <img src="images/logogora.svg" alt="gora" />
+          </div>
+          <div class="s__text_name">
+            <div class="s__text_title">Gora</div>
+            <p class="s__text_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              corporis unde delectus quas dolorem, corrupti fugiat et vitae nam
+              provident
+              <a class="s__text_link" href="">більше...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="splide__slide">
+        <div class="s__text">
+          <div class="s__text_wrap roshen">
+            <img src="images/logoroshen.svg" alt="roshen" />
+          </div>
+          <div class="s__text_name">
+            <div class="s__text_title">Roshen</div>
+            <p class="s__text_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              corporis unde delectus quas dolorem, corrupti fugiat et vitae nam
+              provident
+              <a class="s__text_link" href="">більше...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="splide__slide">
+        <div class="s__text">
+          <div class="s__text_wrap">
+            <img src="images/logozero.svg" alt="zero" />
+          </div>
+          <div class="s__text_name">
+            <div class="s__text_title">Zero</div>
+            <p class="s__text_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              corporis unde delectus quas dolorem, corrupti fugiat et vitae nam
+              provident
+              <a class="s__text_link" href="">більше...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="splide__slide">
+        <div class="s__text">
+          <div class="s__text_wrap roshen">
+            <img src="images/logoroshen.svg" alt="roshen" />
+          </div>
+          <div class="s__text_name">
+            <div class="s__text_title">Roshen</div>
+            <p class="s__text_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              corporis unde delectus quas dolorem, corrupti fugiat et vitae nam
+              provident
+              <a class="s__text_link" href="">більше...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="splide__slide">
+        <div class="s__text">
+          <div class="s__text_wrap">
+            <img src="images/logozero.svg" alt="zero" />
+          </div>
+          <div class="s__text_name">
+            <div class="s__text_title">Zero</div>
+            <p class="s__text_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              corporis unde delectus quas dolorem, corrupti fugiat et vitae nam
+              provident
+              <a class="s__text_link" href="">більше...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="splide__slide">
+        <div class="s__text">
+          <div class="s__text_wrap">
+            <img src="images/logogora.svg" alt="gora" />
+          </div>
+          <div class="s__text_name">
+            <div class="s__text_title">Gora</div>
+            <p class="s__text_text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In
+              corporis unde delectus quas dolorem, corrupti fugiat et vitae nam
+              provident
+              <a class="s__text_link" href="">більше...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+      <footer class="footer">
+  <div class="container parallax_contanier">
+    <div class="logo_wrap footer_logo" id="contact">
+      <a href="#" class="logo_link"
+        ><img src="images/logo.png" class="mainlogo" alt="mainlogo" />
+      </a>
+    </div>
+    <div class="adress-cont">
+      <div class="adress-cont__item">
+        <div class="adress-cont__adress">
+          <div class="adress-cont__adress_bold">м.Житомир</div>
+          <div class="adress-cont__adress_bold">Житомирська обл.</div>
+          <div class="adress-cont__adress_norm">вул.Кафедральна, буд.4-А</div>
+        </div>
+        <div class="adress-cont__adress">
+          <div class="adress-cont__adress_green">E-mail</div>
+          <a
+            class="adress-cont__adress_norm footer_link"
+            href="mailto:ecozahistukraina@ukr.net"
+            >ecozahistukraina@ukr.net</a
+          >
+        </div>
+        <div class="adress-cont__adress">
+          <div class="adress-cont__adress_green">Контакти</div>
+          <a
+            class="adress-cont__adress_norm footer_link"
+            href="tel:+380974274829"
+            >+380 (97) 427-48-29</a
+          >
+          <a class="adress-cont__adress_norm footer_link" href="tel:0412468079"
+            >(0412) 46-80-79</a
+          >
+        </div>
+      </div>
+      <div class="adress-cont__item">
+        <div class="adress-cont__adress">
+          <div class="adress-cont__adress_bold">м.Київ</div>
+          <div class="adress-cont__adress_bold">Київська обл.</div>
+        </div>
+        <div class="adress-cont__adress">
+          <div class="adress-cont__adress_green">E-mail</div>
+          <a
+            class="adress-cont__adress_norm footer_link"
+            href="mailto:Leonid0502@ukr.net"
+            >Leonid0502@ukr.net</a
+          >
+        </div>
+        <div class="adress-cont__adress">
+          <div class="adress-cont__adress_green">Контакти</div>
+          <a
+            class="adress-cont__adress_norm footer_link"
+            href="tel:+380679302906"
+            >380 (67) 930-29-06</a
+          >
+        </div>
+      </div>
+
+      <div class="adress-cont__item">
+        <div class="adress-cont__adress">
+          <div class="adress-cont__adress_bold">м.Вінниця</div>
+          <div class="adress-cont__adress_bold">Вінницька обл.</div>
+          <div class="adress-cont__adress_norm">
+            вул.Айвазовського, буд. № 2
+          </div>
+        </div>
+        <div class="adress-cont__adress">
+          <div class="adress-cont__adress_green">E-mail</div>
+          <a
+            class="adress-cont__adress_norm footer_link"
+            href="mailto:vin-ekozahist@ukr.net"
+            >vin-ekozahist@ukr.net</a
+          >
+        </div>
+        <div class="adress-cont__adress">
+          <div class="adress-cont__adress_green">Контакти</div>
+          <a
+            class="adress-cont__adress_norm footer_link"
+            href="tel:+380673150909"
+            >+380 (67) 315-09-09</a
+          >
+          <a
+            class="adress-cont__adress_norm footer_link"
+            href="tel:+380672638087"
+            >+380 (67) 263-80-87</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="footer__footer">
+      <span class="footer__footer_item">© 2021. ТОВ «Еко захист Україна» </span>
+      <span class="footer__footer_item">Дизайн та розробка </span>
+    </div>
+  </div>
+  <div class="leaf leaf_7">
+    <img src="images/leaf7.png" alt="leaf" />
+  </div>
+  <div class="leaf leaf_8">
+    <img src="images/leaf8.png" alt="leaf" />
+  </div>
+</footer>
+
+    </div>
+    <!--модалка -->
+    <div id="popup" class="popup">
+      <a href="#header" class="popup__area"></a>
+      <div class="popup__body">
+        <div class="popup__content">
+          <a href="#header" class="popup__close">+</a>
+          <h2 class="popup__title">Заповніть форму</h2>
+          <div class="popup__text">
+            Ми передзвонимо для обговорення деталей та справи і узгодимо час
+            консультації, або зателефонуйте нам за номером +38(097) 427 48 29
+          </div>
+          <form class="popup__form" action="">
+            <div class="popup__input">
+              <div class="popup__input__item input__item_tel">
+                <label for="phone"
+                  ><img
+                    class="svg-phone-dims"
+                    src="images/icons/icons.svg#phone"
+                    alt=""
+                /></label>
+                <input
+                  type="tel"
+                  size="30"
+                  required
+                  maxlength="15"
+                  name="phone"
+                  id="phone"
+                  class="form-control"
+                  placeholder="Номер"
+                />
+              </div>
+              <div class="popup__input__item input__item_name">
+                <label for="name"
+                  ><img
+                    class="svg-name-dims"
+                    src="images/icons/icons.svg#name"
+                    alt=""
+                /></label>
+                <input
+                  type="text"
+                  value=""
+                  name="firstname"
+                  id="firstname"
+                  class="form-control"
+                  placeholder="Ім'я"
+                />
+              </div>
+            </div>
+            <button
+              class="button popup__button"
+              type="submit"
+              id="contact_form_submit"
+              name="contact_submit"
+            >
+              надіслати
+            </button>
+          </form>
+          <div id="result"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--модалка -->
+    <!--модалка -->
+    <div id="offer" class="popup">
+      <a href="#header" class="popup__area"></a>
+      <div class="popup__body">
+        <div class="popup__content">
+          <a href="#header" class="popup__close">+</a>
+          <h2 class="popup__title">Зaмовити послугу</h2>
+          <div class="popup__text">
+            Ми Вам передзвонимо для обговорення послуги, або зателефонуйте нам
+            за номером +38(097) 427 48 29
+          </div>
+          <form id="form" class="popup__form" action="#">
+            <div class="popup__input">
+              <div class="popup__input__item input__item_tel">
+                <label for="phone"
+                  ><img
+                    class="svg-phone-dims"
+                    src="images/icons/icons.svg#phone"
+                    alt=""
+                /></label>
+                <input
+                  type="tel"
+                  size="30"
+                  required
+                  maxlength="15"
+                  name="phone"
+                  id="phone"
+                  class="form-control _phone"
+                  placeholder="Номер"
+                />
+              </div>
+              <div class="popup__input__item input__item_name">
+                <label for="name"
+                  ><img
+                    class="svg-name-dims"
+                    src="images/icons/icons.svg#name"
+                    alt=""
+                /></label>
+                <input
+                  type="text"
+                  value=""
+                  name="name"
+                  required
+                  id="name"
+                  class="form-control"
+                  placeholder="Ім'я"
+                />
+              </div>
+            </div>
+            <button
+              class="button popup__button"
+              type="submit"
+              id="contact_form_submit"
+              name="contact_submit"
+            >
+              надіслати
+            </button>
+          </form>
+          <div id="result"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="files/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="files/slick.min.js"></script>
+    <script src="files/parall.js"></script>
+    <script type="text/javascript" src="files/splide.min.js"></script>
+    <script type="text/javascript" src="files/dots.js"></script>
+    <script type="text/javascript" src="files/burger.js"></script>
+  </body>
+</html>

@@ -1,0 +1,127 @@
+.svg-bandage-dims {
+  width: 36px;
+  height: 36px;
+}
+.svg-battery-dims {
+  width: 36px;
+  height: 36px;
+}
+.svg-can-dims {
+  width: 28px;
+  height: 30px;
+}
+.svg-close-dims {
+  width: 45px;
+  height: 45px;
+}
+.svg-copy-dims {
+  width: 22px;
+  height: 22px;
+}
+.svg-desert-dims {
+  width: 36px;
+  height: 36px;
+}
+.svg-email-dims {
+  width: 47px;
+  height: 47px;
+}
+.svg-factory-dims {
+  width: 36px;
+  height: 36px;
+}
+.svg-fuel-dims {
+  width: 22px;
+  height: 36px;
+}
+.svg-garbage-dims {
+  width: 36px;
+  height: 36px;
+}
+.svg-led-dims {
+  width: 36px;
+  height: 36px;
+}
+.svg-mask-dims {
+  width: 36px;
+  height: 36px;
+}
+.svg-medicines-dims {
+  width: 36px;
+  height: 36px;
+}
+.svg-name-dims {
+  width: 16px;
+  height: 16px;
+}
+.svg-oil-barrel-dims {
+  width: 36px;
+  height: 36px;
+}
+.svg-paint-bucket-dims {
+  width: 36px;
+  height: 36px;
+}
+.svg-phone-dims {
+  width: 16px;
+  height: 16px;
+}
+
+.svg-tires-dims {
+  width: 36px;
+  height: 36px;
+}
+.svg-tv-dims {
+  width: 36px;
+  height: 34px;
+}
+.svg-wood-dims {
+  width: 36px;
+  height: 22px;
+}
+
+.svg-logoroshen-dims {
+  width: 107px;
+  height: 37px;
+}
+
+.leaf {
+  position: absolute;
+  z-index: 5;
+  transition: all 0.1s ease;
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+.leaf_1 {
+  top: 80%;
+  right: 40%;
+}
+.leaf_2 {
+  top: 98%;
+  right: 60%;
+}
+.leaf_3 {
+  top: 150%;
+  right: 3%;
+}
+.leaf_4 {
+  top: 200%;
+  left: 2%;
+}
+.leaf_5 {
+  top: 60%;
+  right: 1%;
+}
+.leaf_6 {
+  top: 75%;
+  right: 0;
+}
+.leaf_7 {
+  top: 30%;
+  left: -5px;
+}
+.leaf_8 {
+  top: 50%;
+  left: 0;
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="uk">
+  @@include('html/head.html',{ title:"Еко-Захист" })
+  <body>
+    <div class="leaf leaf_1">
+      <img src="@img/leaf.png" alt="leaf" class="" />
+    </div>
+    <div class="leaf leaf_2">
+      <img src="@img/leaf2.png" alt="leaf" class="" />
+    </div>
+
+    <div id="container">
+      @@include('html/header.html',{}) @@include('html/main.html',{})
+      @@include('html/footer.html',{})
+    </div>
+    <!--модалка -->
+    <div id="popup" class="popup">
+      <a href="#header" class="popup__area"></a>
+      <div class="popup__body">
+        <div class="popup__content">
+          <a href="#header" class="popup__close">+</a>
+          <h2 class="popup__title">Заповніть форму</h2>
+          <div class="popup__text">
+            Ми передзвонимо для обговорення деталей та справи і узгодимо час
+            консультації, або зателефонуйте нам за номером +38(097) 427 48 29
+          </div>
+          <form class="popup__form" action="">
+            <div class="popup__input">
+              <div class="popup__input__item input__item_tel">
+                <label for="phone"
+                  ><img
+                    class="svg-phone-dims"
+                    src="@img/icons/icons.svg#phone"
+                    alt=""
+                /></label>
+                <input
+                  type="tel"
+                  size="30"
+                  required
+                  maxlength="15"
+                  name="phone"
+                  id="phone"
+                  class="form-control"
+                  placeholder="Номер"
+                />
+              </div>
+              <div class="popup__input__item input__item_name">
+                <label for="name"
+                  ><img
+                    class="svg-name-dims"
+                    src="@img/icons/icons.svg#name"
+                    alt=""
+                /></label>
+                <input
+                  type="text"
+                  value=""
+                  name="firstname"
+                  id="firstname"
+                  class="form-control"
+                  placeholder="Ім'я"
+                />
+              </div>
+            </div>
+            <button
+              class="button popup__button"
+              type="submit"
+              id="contact_form_submit"
+              name="contact_submit"
+            >
+              надіслати
+            </button>
+          </form>
+          <div id="result"></div>
+        </div>
+      </div>
+    </div>
+
+    <!--модалка -->
+    <!--модалка -->
+    <div id="offer" class="popup">
+      <a href="#header" class="popup__area"></a>
+      <div class="popup__body">
+        <div class="popup__content">
+          <a href="#header" class="popup__close">+</a>
+          <h2 class="popup__title">Зaмовити послугу</h2>
+          <div class="popup__text">
+            Ми Вам передзвонимо для обговорення послуги, або зателефонуйте нам
+            за номером +38(097) 427 48 29
+          </div>
+          <form id="form" class="popup__form" action="#">
+            <div class="popup__input">
+              <div class="popup__input__item input__item_tel">
+                <label for="phone"
+                  ><img
+                    class="svg-phone-dims"
+                    src="@img/icons/icons.svg#phone"
+                    alt=""
+                /></label>
+                <input
+                  type="tel"
+                  size="30"
+                  required
+                  maxlength="15"
+                  name="phone"
+                  id="phone"
+                  class="form-control _phone"
+                  placeholder="Номер"
+                />
+              </div>
+              <div class="popup__input__item input__item_name">
+                <label for="name"
+                  ><img
+                    class="svg-name-dims"
+                    src="@img/icons/icons.svg#name"
+                    alt=""
+                /></label>
+                <input
+                  type="text"
+                  value=""
+                  name="name"
+                  required
+                  id="name"
+                  class="form-control"
+                  placeholder="Ім'я"
+                />
+              </div>
+            </div>
+            <button
+              class="button popup__button"
+              type="submit"
+              id="contact_form_submit"
+              name="contact_submit"
+            >
+              надіслати
+            </button>
+          </form>
+          <div id="result"></div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="files/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="files/slick.min.js"></script>
+    <script src="files/parall.js"></script>
+    <script type="text/javascript" src="files/splide.min.js"></script>
+    <script type="text/javascript" src="files/dots.js"></script>
+    <script type="text/javascript" src="files/burger.js"></script>
+  </body>
+</html>

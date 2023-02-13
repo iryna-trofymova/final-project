@@ -1,0 +1,133 @@
+.scroll {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background-color: #fff;
+  width: 100%;
+}
+
+.header_inner {
+  display: flex;
+  align-items: center;
+  padding: 28px 40px;
+  position: relative;
+  @media (max-width: 1090px) {
+    padding: 22px 40px;
+  }
+  @media (max-width: 620px) {
+    padding: 30px 20px;
+  }
+}
+
+.header__nav {
+  flex: 1 1 auto;
+  @media (max-width: 1090px) {
+    display: none;
+  }
+}
+
+.nav__list {
+  display: flex;
+  @media (max-width: 1090px) {
+    flex-direction: column;
+    align-items: center;
+    & li {
+      margin: 0 0;
+    }
+  }
+  & li:first-child {
+    margin-left: 85px;
+
+    @media (max-width: 1150px) {
+      margin-left: 25px;
+    }
+    @media (max-width: 1090px) {
+      margin-left: 0px;
+    }
+  }
+  & li:not(:last-child) {
+    margin-right: 25px;
+    @media (max-width: 1090px) {
+      margin-right: 0px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.nav__item_link {
+  font-size: 13px;
+  line-height: 138.9%;
+  text-transform: uppercase;
+  color: #222222;
+  &:hover {
+    color: #68ac4e;
+    cursor: pointer;
+  }
+}
+
+.select {
+  font-size: 16px;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  margin: 0 25px;
+  position: relative;
+  @media (max-width: 767px) {
+    right: 90%;
+    bottom: 15px;
+  }
+  &::after {
+    content: "";
+    background-image: url("@img/open-button.png");
+    height: 11px;
+    width: 24px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 18px;
+  }
+}
+
+.header__button {
+  padding: 11px 50px;
+  flex: 0 1 auto;
+  @media (max-width: 1090px) {
+    display: none;
+  }
+}
+
+.header_logo_min {
+  display: none;
+  @media (max-width: 767px) {
+    display: block;
+    width: 35px;
+    margin: 0 auto;
+    overflow: hidden;
+    & img {
+      width: 100%;
+    }
+  }
+}
+
+.header_logo {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+#lang {
+  display: none;
+}
+#lang:checked ~ .uk,
+#lang:not(:checked) ~ .eng {
+  display: none;
+}
+label[for="lang"] {
+  user-select: none;
+  cursor: pointer;
+}
